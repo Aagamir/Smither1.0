@@ -44,10 +44,10 @@ for (int i = 0; i < 9; i++)
         counter++;
      Console.Clear();       
 }
-        do
+        while (winner) 
         {   
             Console.WriteLine("REMIS");
             break;
         }
-        while (winner);
+       
         Tabelka(board);
